@@ -1,0 +1,36 @@
+// var valueInput = getEl(arrID[i]).value;
+    // nhanVien[arrID[i]] = valueInput;
+
+    // if (arrID[i] == "tknv") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) &&
+    //     checkMinMaxInput(valueInput, arrTB[i], 4, 6, "ký tự là số") &&
+    //     checkNum(valueInput, arrTB[i]);
+    // } else if (arrID[i] == "name") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) && checkName(valueInput, arrTB[i]);
+    // } else if (arrID[i] == "email") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) && checkEmail(valueInput, arrTB[i]);
+    // } else if (arrID[i] == "password") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) &&
+    //     checkMinMaxInput(valueInput, arrTB[i], 6, 10, "ký tự") &&
+    //     checkPass(valueInput, arrTB[i]);
+    // } else if (arrID[i] == "datepicker") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) && checkDate(valueInput, arrTB[i]);
+    // } else if (arrID[i] == "luongCB") {
+    //   debugger;
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) &&
+    //     checkNum(valueInput, arrTB[i]) &&
+    //     checkMinMaxInput(valueInput * 1, arrTB[i], 1000000, 20000000, "triệu");
+    // } else if (arrID[i] == "gioLam") {
+    //   isValid &=
+    //     checkEmpty(valueInput, arrTB[i]) &&
+    //     checkNum(valueInput, arrTB[i]) &&
+    //     checkMinMaxInput(valueInput * 1, arrTB[i], 80, 200, "giờ");
+    // } else {
+    //   isValid &= checkEmpty(valueInput, arrTB[i]);
+    // }
