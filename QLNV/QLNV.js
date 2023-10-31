@@ -218,9 +218,7 @@ function searchInfoUser(event) {
   var newkeyword = removeVietnameseTones(keyword.toLowerCase().trim());
   console.log(newkeyword);
   for (let i = 0; i < dsNhanVien.length; i++) {
-    var xepLoai = removeVietnameseTones(
-      calculateXepLoai(dsNhanVien[i].gioLam).toLowerCase()
-    );
+    var xepLoai = removeVietnameseTones(dsNhanVien[i].name.toLowerCase());
     if (xepLoai.includes(newkeyword)) {
       arrSearch.push(dsNhanVien[i]);
     }
@@ -229,12 +227,12 @@ function searchInfoUser(event) {
   renderGUI(arrSearch);
 }
 
-function calculateXepLoai(gioLam) {
-  return gioLam >= 192
-    ? "Xuất sắc"
-    : gioLam >= 176
-    ? "Giỏi"
-    : gioLam >= 160
-    ? "Khá"
-    : "Trung bình";
-}
+// function calculateXepLoai(gioLam) {
+//   return gioLam >= 192
+//     ? "Xuất sắc"
+//     : gioLam >= 176
+//     ? "Giỏi"
+//     : gioLam >= 160
+//     ? "Khá"
+//     : "Trung bình";
+// }
